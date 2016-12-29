@@ -16,6 +16,7 @@ if [ ! -d /var/log/serialcontrol/]
 then
     mkdir /var/log/serialcontrol/
 fi
+touch /var/log/serialcontrol/dmidecode.txt
 #if [ ! -f /usr/bin/serialcode/decode/sc-$(date +%Y%m%d) ]
 #then    
 #fi
